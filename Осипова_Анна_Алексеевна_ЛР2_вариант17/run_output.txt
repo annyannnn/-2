@@ -1,0 +1,25 @@
+
+М7 — демонстрация устойчивости
+Исходные записи: [('Иванов', 1200), ('Петров', 800), ('Сидоров', 1200), ('Кузнецов', 500), ('Смирнов', 800), ('Попова', 1200)]
+Пузырьком: [('Кузнецов', 500), ('Петров', 800), ('Смирнов', 800), ('Иванов', 1200), ('Сидоров', 1200), ('Попова', 1200)]
+Вставками: [('Кузнецов', 500), ('Петров', 800), ('Смирнов', 800), ('Иванов', 1200), ('Сидоров', 1200), ('Попова', 1200)]
+Вариант 17 — D [0; 10], k=3
+     n     Пузырьком, с     Вставками, с        B/I
+  1000         0.039174         0.018080      2.167
+  2000         0.182983         0.089232      2.051
+  3000         0.429007         0.236641      1.813
+  4000         0.713996         0.371781      1.920
+  5000         1.306399         0.504951      2.587
+
+Результаты сохранены в results.csv, график — lr2_plot.png.
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

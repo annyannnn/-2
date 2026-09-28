@@ -1,0 +1,11 @@
+ЛР №2, вариант 0 — Осипова Анна Алексеевна
+Python: 3.13.5
+ОС: Linux 6.18.44
+Процессор: не определён
+
+n=500: bubble=0.00758615 c; insertion=0.00392564 c; T(2n)/T(n)=-
+n=1000: bubble=0.03648072 c; insertion=0.01938325 c; T(2n)/T(n)=bubble=4.809, insertion=4.938
+n=2000: bubble=0.15207211 c; insertion=0.08511977 c; T(2n)/T(n)=bubble=4.169, insertion=4.391
+n=3000: bubble=0.36346925 c; insertion=0.18898385 c; T(2n)/T(n)=bubble=2.390, insertion=2.220
+n=4000: bubble=0.64085167 c; insertion=0.35430864 c; T(2n)/T(n)=bubble=1.763, insertion=1.875
+n=5000: bubble=0.99982301 c; insertion=0.54196079 c; T(2n)/T(n)=bubble=1.560, insertion=1.530
